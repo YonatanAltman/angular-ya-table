@@ -3,13 +3,15 @@ table{
 
   width: 80%;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.048); //<- working
-  color:white; //<- not working
+  background-color: rgba(0, 0, 0, 0.048); 
+  cursor: pointer;
+  // the table can't effect its node children because they get style from all the classes they get from the theme.
+  // you need to add style below.
 }
 td{
-  color:white; //<- working
-  font-family: 'Courier New', Courier, monospace; //<- working
-  background-color: rgb(37, 0, 248);//<- working
+  color:white; 
+  font-family: 'Courier New', Courier, monospace; 
+  background-color: rgb(37, 0, 248);
 
 }
 
@@ -24,3 +26,7 @@ td{
     text-align: center;
     font-size: large;
   }
+   .mat-column-firstName:hover{
+    background-color: rgba(255, 0, 0, 0.719);
+     
+   }
