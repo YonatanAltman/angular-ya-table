@@ -1,0 +1,26 @@
+
+table{
+
+  width: 80%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.048); //<- working
+  color:white; //<- not working
+}
+td{
+  color:white; //<- working
+  font-family: 'Courier New', Courier, monospace; //<- working
+  background-color: rgb(37, 0, 248);//<- working
+
+}
+
+  .mat-column-uid {
+    width: 10px;
+  }
+  .mat-column-age {
+    width: 10px;
+  }
+  .mat-column-firstName {
+    width: 50%;
+    text-align: center;
+    font-size: large;
+  }

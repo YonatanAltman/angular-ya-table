@@ -1,0 +1,11 @@
+.wrapper{
+
+  margin: auto;
+  height: 100vh;
+  background-color: rgb(69, 189, 45);
+  overflow: auto;
+  outline: darkblue solid 2px;
+}
+p {
+  font-family: Lato;
+}
