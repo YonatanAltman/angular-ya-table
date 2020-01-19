@@ -1,8 +1,8 @@
 .wrapper{
-
+font-family: "Arial";
   margin: auto;
   height: 100vh;
-  background-color: rgb(69, 189, 45);
+  background-color: rgb(158, 236, 241);
   overflow: auto;
   outline: darkblue solid 2px;
 }
